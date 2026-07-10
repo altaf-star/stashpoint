@@ -1,0 +1,16 @@
+{
+  "name": "stashpoint",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Vercel serverless entry deps for /api — mirrors server/package.json since Vercel installs from the repo root when building the api/ function.",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.4",
+    "morgan": "^1.11.0"
+  }
+}
